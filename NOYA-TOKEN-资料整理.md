@@ -1,6 +1,6 @@
 # NOYA Token 资料整理（2026-11-03，全部经链上 / 平台实测核验）
 
-![NOYA Logo](noya-logo.svg)
+![NOYA Logo](noya-logo-user.svg)
 
 ## 一、代币基本信息
 
