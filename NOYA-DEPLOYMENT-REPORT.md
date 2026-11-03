@@ -1,6 +1,6 @@
 # NOYA DEPLOYMENT REPORT — 主网已部署，链上已核验，BaseScan 已验证，GitHub 已公开
 
-> 部署已发生：合约地址与区块高度为链上实测值（Base RPC eth_getCode / eth_call 核验），交易哈希为用户部署页日志截图所载（截图读取可能截断，待用户以文字回传后以回执再核对一次）。BaseScan 源码验证已通过，GitHub 公开仓库已创建并推送（https://github.com/xiaoyuyu27/NOYA-Token，首推提交 602bb86be79c31d206f1666bf4d374ef34fb54a4）。
+> 部署已发生：合约地址、区块高度与交易哈希均经 Base RPC 回执核验。BaseScan 源码验证已通过，GitHub 公开仓库已创建并推送（https://github.com/xiaoyuyu27/NOYA-Token）。
 
 ## Token 参数
 
@@ -21,13 +21,13 @@
 ## 部署信息（链上已核验）
 
 - 合约地址：0x0e0147e45f87649097b85214c4d0705d6caa8ad6
-- 部署交易哈希：0xfaeb88b9f3c2b3574d38ae435226b8f33387d371a33007f2cacf41eeb6d957（部署页日志截图所载，截图读取长度疑似不足 66 字符，待用户以文字回传后以 eth_getTransactionReceipt 再核对）
-- 区块高度：53450235（部署页日志所载；链上 eth_call 已确认该地址存在合约代码）
+- 部署交易哈希：0xafaeb88b93f2c3b1574d8ae4835226b8f33387d371a33007f2cacf41eeb6d957（用户 2026-11-03 以文字回传，Base RPC eth_getTransactionReceipt 核验：status 0x1 成功，from 为部署钱包，to 为空即合约创建，contractAddress 与合约地址一致，区块高度 53450235，区块时间 2026-11-03 15:10:17 +08:00，铸造 Transfer 日志 from 零地址 to 接收钱包、金额为全量）
+- 区块高度：53450235（回执核验，0x32f95fb）
 - 部署钱包：0xCAc8F76a31586AdAc44deeEF11fa66A8B282eeCa（Account 1，MetaMask 连接页所载）
 - 接收钱包：0xCAc8F76a31586AdAc44deeEF11fa66A8B282eeCa（部署钱包与接收钱包为同一地址）
 - 链上核验（Base RPC，2026-11-03）：eth_chainId 0x2105；合约代码存在；totalSupply = 100000000000000000000000000（即 100,000,000 × 10^18）；decimals = 18；接收钱包 balanceOf = totalSupply（全量已到接收钱包）
 - 源码验证链接：已通过 Pass - Verified（2026-11-03，Etherscan API V2，Solidity 0.8.24 v0.8.24+commit.e11b9ed9，optimizer 200，EVM paris，MIT，非代理）；源码已在 BaseScan 公开可读，详见 verification/VERIFIED-2026-11-03.md
-- 部署时间：2026-11-03（用户 MetaMask 签名广播当日，具体区块时间待回执核对）
+- 部署时间：2026-11-03 15:10:17 +08:00（回执区块时间核验）
 - BaseScan 合约页：https://basescan.org/address/0x0e0147e45f87649097b85214c4d0705d6caa8ad6
 
 ## 测试结果（真实执行，非伪造）

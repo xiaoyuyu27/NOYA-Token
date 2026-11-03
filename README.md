@@ -54,7 +54,8 @@ npx hardhat verify --network base <CONTRACT_ADDRESS> <RECIPIENT_ADDRESS>
 - Base RPC 核验：totalSupply = 100,000,000，decimals = 18，接收钱包余额 = 全量
 - BaseScan 合约页：https://basescan.org/address/0x0e0147e45f87649097b85214c4d0705d6caa8ad6
 - GitHub 公开仓库：https://github.com/xiaoyuyu27/NOYA-Token（Public，首推提交 602bb86be79c31d206f1666bf4d374ef34fb54a4）
-- 待完成：交易哈希待用户以文字回传后以回执再核对
+- 部署交易哈希：0xafaeb88b93f2c3b1574d8ae4835226b8f33387d371a33007f2cacf41eeb6d957（回执核验成功）
+- 待完成：无（仅 noya.ai 官方关系仍未确认，对外不得宣称为官方币）
 
 ## 重要提醒
 
