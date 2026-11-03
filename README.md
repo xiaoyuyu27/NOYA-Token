@@ -53,7 +53,8 @@ npx hardhat verify --network base <CONTRACT_ADDRESS> <RECIPIENT_ADDRESS>
 - 部署钱包 = 接收钱包：`0xCAc8F76a31586AdAc44deeEF11fa66A8B282eeCa`
 - Base RPC 核验：totalSupply = 100,000,000，decimals = 18，接收钱包余额 = 全量
 - BaseScan 合约页：https://basescan.org/address/0x0e0147e45f87649097b85214c4d0705d6caa8ad6
-- 待完成：BaseScan 源码验证 Exact Match、GitHub 公开仓库；交易哈希待用户以文字回传后以回执再核对
+- GitHub 公开仓库：https://github.com/xiaoyuyu27/NOYA-Token（Public，首推提交 602bb86be79c31d206f1666bf4d374ef34fb54a4）
+- 待完成：交易哈希待用户以文字回传后以回执再核对
 
 ## 重要提醒
 

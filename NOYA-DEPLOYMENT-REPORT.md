@@ -1,6 +1,6 @@
-# NOYA DEPLOYMENT REPORT — 主网已部署，链上已核验，BaseScan 验证与 GitHub 开源待完成
+# NOYA DEPLOYMENT REPORT — 主网已部署，链上已核验，BaseScan 已验证，GitHub 已公开
 
-> 部署已发生：合约地址与区块高度为链上实测值（Base RPC eth_getCode / eth_call 核验），交易哈希为用户部署页日志截图所载（截图读取可能截断，待用户以文字回传后以回执再核对一次）。BaseScan 源码验证与 GitHub 公开仓库尚未完成，不得宣布项目全部完成。
+> 部署已发生：合约地址与区块高度为链上实测值（Base RPC eth_getCode / eth_call 核验），交易哈希为用户部署页日志截图所载（截图读取可能截断，待用户以文字回传后以回执再核对一次）。BaseScan 源码验证已通过，GitHub 公开仓库已创建并推送（https://github.com/xiaoyuyu27/NOYA-Token，首推提交 602bb86be79c31d206f1666bf4d374ef34fb54a4）。
 
 ## Token 参数
 
