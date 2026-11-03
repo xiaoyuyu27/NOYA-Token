@@ -1,5 +1,7 @@
 # NOYA Token
 
+![NOYA Logo](noya-logo.svg)
+
 标准 ERC-20，Base Mainnet（Chain ID 8453）。
 
 ## 固定参数（不得擅自修改）
