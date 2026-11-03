@@ -1,0 +1,15 @@
+
+
+  NOYA
+    ✔ name / symbol / decimals are NOYA / NOYA / 18
+    ✔ total supply is exactly 100,000,000
+    ✔ initial recipient receives the full supply, deployer receives 0
+    ✔ plain transfer works
+    ✔ approve + transferFrom works
+    ✔ transfer above balance reverts
+    ✔ there is no mint / burn / owner / blacklist / pause entry point in the ABI
+    ✔ constructor rejects the zero address
+
+
+  8 passing (963ms)
+
